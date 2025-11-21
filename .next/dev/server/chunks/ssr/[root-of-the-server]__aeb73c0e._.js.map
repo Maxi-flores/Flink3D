@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///home/max/ProfoundProjects/Flink3D/pages/index.jsx"],"sourcesContent":["export default function Home() { return <div>Flink3D Project</div>; }\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IAAS,qBAAO,qKAAC;kBAAI;;;;;;AAAuB","debugId":null}}]
-}

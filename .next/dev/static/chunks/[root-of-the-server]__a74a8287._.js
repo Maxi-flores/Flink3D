@@ -466,23 +466,32 @@ function triggerUpdate(msg) {
 "use strict";
 
 __turbopack_context__.s([
+    "__N_SSP",
+    ()=>__N_SSP,
     "default",
-    ()=>Home
+    ()=>Page
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$plasmicapp$2f$loader$2d$nextjs$2f$dist$2f$index$2e$esm$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/@plasmicapp/loader-nextjs/dist/index.esm.js [client] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$plasmicapp$2f$loader$2d$react$2f$dist$2f$index$2e$esm$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/@plasmicapp/loader-react/dist/index.esm.js [client] (ecmascript) <locals>");
 ;
-function Home() {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        children: "Flink3D Project"
+;
+// <<< CHANGE THIS ONLY >>>
+// Put the EXACT page/component name from Plasmic here:
+const PLASMIC_PAGE = "Home"; // <-- change this if needed
+var __N_SSP = true;
+function Page() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$plasmicapp$2f$loader$2d$react$2f$dist$2f$index$2e$esm$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["PlasmicComponent"], {
+        component: PLASMIC_PAGE
     }, void 0, false, {
         fileName: "[project]/pages/index.jsx",
-        lineNumber: 1,
-        columnNumber: 41
+        lineNumber: 19,
+        columnNumber: 10
     }, this);
 }
-_c = Home;
+_c = Page;
 var _c;
-__turbopack_context__.k.register(_c, "Home");
+__turbopack_context__.k.register(_c, "Page");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
